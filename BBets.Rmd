@@ -95,7 +95,7 @@ print(arranged[25])
 print(arranged[975])
 ```
 
-In this histogram we can see that the 0 shifted to the left side making it a little harder to win money. We can see that the 'MIN' is -188 again give or take win or losing money. 
+In this histogram we can see that the 0 shifted to the left side making it a little harder to win money. We can see that the 'MIN' is -188 again give or take win or losing money. In this one we plugged in 35 students timing 1000 which gave us the zero shifting to the right.  
 
 
 # In the class and payoff as described what is a 95% confidence interval for Brownlow's earnings?
@@ -127,7 +127,7 @@ print(arranged[12])
 print(arranged[488])
 ```
 
-Now we have seen that the 0 is in the middle so that leaves this to be fair odds. On winning or losing money. The 'MIN' is -92 in this histogram. 
+Now we have seen that the 0 is in the middle so that leaves this to be fair odds. On winning or losing money. The 'MIN' is -92 in this histogram. In this problem we have plugged in 29 students times 1000 times.
 
 We going to try this 1000 times to see if we can get a 95% confidence interval. We are going to sort this out from low to high so that the middle can be 95%.
 
@@ -137,7 +137,7 @@ We going to try this 1000 times to see if we can get a 95% confidence interval. 
 <!--Discussion and conclusion here.  If professor Brownlow is consistantly making or losing money how could he change his payout so that his profits center on zero?  Also discuss what size his class should be in order to have his current scheme balance at zero profit.!-->
 
 
-Given the graphs above we can see that there is a differences when we plug in different numbers, The numbers are always going to change statistically speaking. We plugged in different numbers to see if we can tell which graph is much more better. The graphs that had the zero in the middle would be more better given that the chances are fair odds. 
+Given the graphs above we can see that there is a differences when we plug in different numbers, The numbers are always going to change statistically speaking. We plugged in different numbers to see if we can tell which graph is much more better. The graphs that had the zero in the middle would be more better given that the chances are fair odds. We can see that Brownlows bets is making money and he would need a total of 35 students then he would be timing 1000 to it in order to see that he is earning more money instead of losing money. His profit would include a zero to his earnings.  
 
 
 
