@@ -60,22 +60,57 @@ print(arranged[12])
 print(arranged[488])
 ```
 
-The number of Brownlows would have to bet $4.35. The way to tell is by the 0 that is in the middle by that it has reached fair odds. 
+The number of Brownlows would have to bet $4.35. The way to tell is by the 0 that is in the middle by that it has reached fair odds. We can also see that the 'MIN' is -176 which means we can either win or lose money.
 
 
 
 # What size of class makes the 2:1 bet fair?  
 <!--Explain and display the results of your method of coming up with the estimate of professor Brownlows betting profits!-->
 
+
+
+
 ```{r}
-BrLw(29,2,637)
+BrLw(35,2,637)
 ```
 
 
 
 ```{r}
 bank=numeric()
-for(j in 1:500){
+for(j in 1:1000){
+  
+
+
+bank[j] = BrLw(35,2,637)}
+```
+
+
+
+```{r}
+hist(bank)
+favstats(bank)
+arranged<-sort(bank)
+print(arranged[25])
+print(arranged[975])
+```
+
+In this histogram we can see that the 0 shifted to the left side making it a little harder to win money. We can see that the 'MIN' is -188 again give or take win or losing money. 
+
+
+# In the class and payoff as described what is a 95% confidence interval for Brownlow's earnings?
+  
+<!--Explain and display your method of coming up with a 95% confidence interval of  professor Brownlows winnings (or losings)-->
+
+
+```{r}
+BrLw(29,2,637)
+```
+
+
+```{r}
+bank=numeric()
+for(j in 1:1000){
   
 
 
@@ -92,45 +127,17 @@ print(arranged[12])
 print(arranged[488])
 ```
 
+Now we have seen that the 0 is in the middle so that leaves this to be fair odds. On winning or losing money. The 'MIN' is -92 in this histogram. 
 
-
-
-
-
-
-```{r}
-BrLw(27,2,637)
-```
-
-
-
-```{r}
-bank=numeric()
-for(j in 1:500){
-  
-
-
-bank[j] = BrLw(27,2,637)}
-```
-
-
-
-```{r}
-hist(bank)
-favstats(bank)
-arranged<-sort(bank)
-print(arranged[12])
-print(arranged[488])
-```
-
-
-
-# In the class and payoff as described what is a 95% confidence interval for Brownlow's earnings?
-  
-<!--Explain and display your method of coming up with a 95% confidence interval of  professor Brownlows winnings (or losings)-->
+We going to try this 1000 times to see if we can get a 95% confidence interval. We are going to sort this out from low to high so that the middle can be 95%.
 
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If professor Brownlow is consistantly making or losing money how could he change his payout so that his profits center on zero?  Also discuss what size his class should be in order to have his current scheme balance at zero profit.!-->
+
+
+Given the graphs above we can see that there is a differences when we plug in different numbers, The numbers are always going to change statistically speaking. We plugged in different numbers to see if we can tell which graph is much more better. The graphs that had the zero in the middle would be more better given that the chances are fair odds. 
+
+
 
